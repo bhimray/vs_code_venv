@@ -13,3 +13,33 @@ Fatal error in launcher: Unable to create process using '"C:\Users\Administrator
 python -m pip install --upgrade pip
 
 after that i installed django rest framework
+
+
+
+########################
+Line 17:9:  Expected an assignment or function call and instead saw an expression  no-unused-expressions or eslint error
+ then 
+  return (
+    <div>
+      <h1>React Query Page</h1>
+      {
+      heroData.map((element)=>{
+        console.log(element);
+        <h1>{element.name}</h1> ###### here you have to keep return to return some value from function otherwise they will throw an error....
+      })
+      }
+    </div>
+  )
+hence, 
+the solution is
+ return (
+    <div>
+      <h1>React Query Page</h1>
+      {
+      heroData.map((element)=>{
+        console.log(element);
+        return <h1>{element.name}</h1> #this will return html component while mapping through each data hence it works
+      })
+      }
+    </div>
+  )
