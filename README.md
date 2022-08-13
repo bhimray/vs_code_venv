@@ -43,3 +43,13 @@ the solution is
       }
     </div>
   )
+
+
+
+
+parsing error: adjacent jsx elements must be wrapped in an enclosing tag. did you want a jsx fragment <>...</>?
+
+while using map() function to loop ___
+use <Fragement>
+        <div> read this </div>
+    </Fragement>
