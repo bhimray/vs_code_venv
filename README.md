@@ -53,3 +53,12 @@ while using map() function to loop ___
 use <Fragement>
         <div> read this </div>
     </Fragement>
+
+
+return some value from map function:
+if there is nothing to return except to write the html then use
+map(()=>(
+)
+otherwise use
+map(()=>{
+}
