@@ -62,3 +62,9 @@ map(()=>(
 otherwise use
 map(()=>{
 }
+
+error in npm build in netlify
+
+put CI= npm run build
+
+This one will resolve the problems.
