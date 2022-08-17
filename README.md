@@ -68,3 +68,13 @@ error in npm build in netlify
 put CI= npm run build
 
 This one will resolve the problems.
+
+
+
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm ERR! node_modules/@material-ui/core
+npm ERR!   @material-ui/core@"*" from the root project
+
+
+then use npm install -f @material-ui/core
