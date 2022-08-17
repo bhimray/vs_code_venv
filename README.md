@@ -78,3 +78,8 @@ npm ERR!   @material-ui/core@"*" from the root project
 
 
 then use npm install -f @material-ui/core
+
+
+ERROR in ./node_modules/@mui/system/esm/index.js 1:0-88 export 'keyframes' (reexported as 'keyframes') was not found in '@mui/styled-engine' (possible exports: GlobalStyles, StyledEngineProvider, default, internal_processStyles)
+
+install -- npm install @mui/material @emotion/react @emotion/styled
