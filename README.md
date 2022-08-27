@@ -83,3 +83,18 @@ then use npm install -f @material-ui/core
 ERROR in ./node_modules/@mui/system/esm/index.js 1:0-88 export 'keyframes' (reexported as 'keyframes') was not found in '@mui/styled-engine' (possible exports: GlobalStyles, StyledEngineProvider, default, internal_processStyles)
 
 install -- npm install @mui/material @emotion/react @emotion/styled
+
+
+
+
+
+
+
+
+
+######################################################################## Node.js #################################################################3
+TypeError: products.find is not a function
+
+products= require("./products")
+
+check if the products is an array or not. If it is not then covert it into array or find if the products is inside the object as a key {"products":}, if it is then extract that key or do what products.products.find(()=>{})
